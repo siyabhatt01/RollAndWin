@@ -1,0 +1,101 @@
+h1
+{
+   color: aliceblue; 
+   font-size: 5rem;
+   text-align: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin: auto;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.box1
+{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.box2
+{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.dice1 img{
+    margin: 20px;
+}
+.dice2 img{
+    margin: 20px;
+}
+.click
+{
+    width: 15vw;
+    margin: auto;
+}
+#rollButton {
+
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #6a88b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+#rollButton:hover {
+    background-color: #465770;
+}
+/* New styles for the game rules section */
+.game-rules {
+    margin: 50px auto;
+    width: 60%;
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.game-rules h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.game-rules ol {
+    padding-left: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.game-rules li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+body
+{
+    background-color: #293343;
+}
+@media only screen and (max-width: 850px) {
+    .container {
+      flex-direction: column;
+    }
+  }

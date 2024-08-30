@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll and Win</title>
+    <link rel="stylesheet" href="DiceGame.css">
+    <link rel="icon" type="image/x-icon" href="./DiceGameResources/dice-svgrepo-com.svg">
+</head>
+<body>
+    <h1 id="heading">REFRESH ME </h1>
+    <hr>
+    <div class="container">
+        <div class="box1">
+            Player 1
+             <div class="dice1">
+              <img id="dice1img" src="./DiceGameResources/dice6.png" alt="dice" height="200px">  
+             </div>
+        </div>
+        <div class="box2">
+            Player 2
+            <div class="dice2">
+             <img id="dice2img" src="./DiceGameResources/dice6.png" alt="dice" height="200px">  
+
+            </div>
+        </div>
+    </div>
+
+    <div class="click">
+    <button id="rollButton" onclick="rollDice()">Roll the Dice!</button>
+    </div>
+
+    <section class="game-rules">
+        <h2> Roll and Win: Quick Game Rules</h2>
+        <ol>
+            <li><strong>Objective:</strong> Roll a higher number than your opponent to win.</li>
+            <li><strong>Players:</strong> Two players compete — Player 1 and Player 2.</li>
+            <li><strong>How to Play:</strong> Click the "Roll the Dice!" button to roll both dice.</li>
+            <li><strong>Winning:</strong> The player with the higher roll wins. If both rolls are the same, it's a draw.</li>
+            <li><strong>Repeat:</strong> Click the button again to play another round.</li>
+        </ol>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
